@@ -1,0 +1,42 @@
+# TestProject1
+
+This project contains unit tests for a Blazor-based application. The tests focus on validating the behavior of the `LoginModel` class, which handles user authentication.
+
+## Project Details
+
+- **Framework**: .NET 8
+- **Language**: C# 12.0
+- **Testing Framework**: xUnit
+- **Mocking Library**: Moq
+
+## Key Features
+
+- **Unit Tests**:
+  - `OnPostAsync_InvalidCredentials_ReturnsPageWithError`: Verifies that invalid login credentials return a page with an error.
+  - `OnGet_NoExternalLogins_ReturnsEmptyList`: Ensures that when no external logins are configured, the `ExternalLogins` property is null.
+
+## How to Run Tests
+
+1. Open the project in Visual Studio.
+2. Build the solution to restore dependencies.
+3. Open the **Test Explorer** in Visual Studio.
+4. Run all tests or specific tests as needed.
+
+## Dependencies
+
+- **Microsoft.AspNetCore.Identity**: For user authentication and identity management.
+- **Moq**: For mocking dependencies in unit tests.
+- **xUnit**: For writing and running unit tests.
+
+## Notes
+
+- The `LoginModel` class is part of a Blazor project and is tested using mocked dependencies.
+- Ensure that the .NET 8 SDK is installed before running the tests.
+
+## Contributing
+
+Feel free to submit issues or pull requests to improve the tests or add new ones.
+
+## License
+
+This project is licensed under the MIT License.

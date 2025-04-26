@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google-Auth", "Google-Auth.csproj", "{CE93D4B7-60DB-409D-8791-5EFE9A8A4616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{5D7E63EB-6617-4954-9CB3-E968DE40DD14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE895F6A-79A8-4125-8959-4C4C0247B712}"
+	ProjectSection(SolutionItems) = preProject
+		readme = readme
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE93D4B7-60DB-409D-8791-5EFE9A8A4616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE93D4B7-60DB-409D-8791-5EFE9A8A4616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE93D4B7-60DB-409D-8791-5EFE9A8A4616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE93D4B7-60DB-409D-8791-5EFE9A8A4616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7E63EB-6617-4954-9CB3-E968DE40DD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7E63EB-6617-4954-9CB3-E968DE40DD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7E63EB-6617-4954-9CB3-E968DE40DD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7E63EB-6617-4954-9CB3-E968DE40DD14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
